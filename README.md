@@ -1,4 +1,10 @@
-# financial
+# Financial
+
+Financial transactions record app.
+
+## Status
+
+Work In Progress
 
 ## Project setup
 ```
@@ -19,6 +25,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
