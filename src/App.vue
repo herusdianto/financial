@@ -1,3 +1,9 @@
+<style>
+  .margin-20 {
+    margin: 20px;
+  }
+</style>
+
 <template>
   <v-app id="inspire">
     <v-navigation-drawer
@@ -51,7 +57,6 @@
 </template>
 
 <script>
-
 import router from "./router";
 
 export default {

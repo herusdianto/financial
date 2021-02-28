@@ -1,5 +1,10 @@
 <template>
-  <div class="about">
-    <h1>This is an income page</h1>
-  </div>
+  <v-card
+      elevation="2"
+      outlined
+      shaped
+      class="margin-20"
+  >
+    <v-card-title>This is an income page</v-card-title>
+  </v-card>
 </template>
