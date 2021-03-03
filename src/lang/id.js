@@ -11,7 +11,7 @@ export default {
     },
 
     transactions: {
-        title: 'Transaksi',
+        index: 'Transaksi',
     },
 
     actions: {

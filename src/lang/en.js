@@ -11,7 +11,7 @@ export default {
     },
 
     transactions: {
-        title: 'Transactions',
+        index: 'Transactions',
     },
 
     actions: {

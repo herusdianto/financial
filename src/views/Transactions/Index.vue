@@ -3,7 +3,7 @@
     <v-toolbar dense
                elevate-on-scroll
     >
-      <v-toolbar-title>{{ $vuetify.lang.t('$vuetify.transactions.title') }}</v-toolbar-title>
+      <v-toolbar-title>{{ $vuetify.lang.t('$vuetify.transactions.index') }}</v-toolbar-title>
 
       <v-spacer></v-spacer>
 

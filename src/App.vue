@@ -87,7 +87,7 @@ export default {
   data: () => ({
     drawer: null,
     items: [
-      { title: 'transactions.title', icon: 'mdi-cash-multiple', routeName: 'transactions' },
+      { title: 'transactions.index', icon: 'mdi-cash-multiple', routeName: 'transactions.index' },
     ],
   }),
 
