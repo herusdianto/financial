@@ -13,6 +13,10 @@
       </v-btn>
 
       <v-btn icon>
+        <v-icon>mdi-plus-outline</v-icon>
+      </v-btn>
+
+      <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
       </v-btn>
 
