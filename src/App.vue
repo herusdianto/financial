@@ -71,9 +71,15 @@
 
 <script>
 import router from "./router";
+import Database from "./services/database";
 
 export default {
   name: 'App',
+
+  mounted() {
+    let db = new Database().getDb()
+    console.log({db})
+  },
 
   components: {
   },
