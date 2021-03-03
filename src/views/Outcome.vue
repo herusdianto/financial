@@ -8,22 +8,59 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
-        <v-icon>mdi-refresh</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn icon
+                 v-bind="attrs"
+                 v-on="on">
+            <v-icon>mdi-refresh</v-icon>
+          </v-btn>
+        </template>
+        <span>
+          {{ $vuetify.lang.t('$vuetify.actions.refresh') }}
+        </span>
+      </v-tooltip>
 
-      <v-btn icon>
-        <v-icon>mdi-plus-outline</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn icon
+                 v-bind="attrs"
+                 v-on="on">
+            <v-icon>mdi-plus-outline</v-icon>
+          </v-btn>
+        </template>
+        <span>
+          {{ $vuetify.lang.t('$vuetify.actions.create') }}
+        </span>
+      </v-tooltip>
 
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn icon
+                 v-bind="attrs"
+                 v-on="on">
+            <v-icon>mdi-magnify</v-icon>
+          </v-btn>
+        </template>
+        <span>
+          {{ $vuetify.lang.t('$vuetify.actions.search') }}
+        </span>
+      </v-tooltip>
 
-      <v-btn icon>
-        <v-icon>mdi-delete-outline</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn icon
+                 v-bind="attrs"
+                 v-on="on">
+            <v-icon>mdi-delete-outline</v-icon>
+          </v-btn>
+        </template>
+        <span>
+          {{ $vuetify.lang.t('$vuetify.actions.delete') }}
+        </span>
+      </v-tooltip>
     </v-toolbar>
+
     <v-sheet class="overflow-y-auto"
              max-height="600"
     >

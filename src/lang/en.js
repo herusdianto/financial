@@ -17,4 +17,11 @@ export default {
     outcome: {
         title: 'Outcome',
     },
+
+    actions: {
+        refresh: 'Refresh',
+        create: 'Create',
+        search: 'Search',
+        delete: 'Delete',
+    },
 }

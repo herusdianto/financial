@@ -17,4 +17,11 @@ export default {
     outcome: {
         title: 'Pengeluaran',
     },
+
+    actions: {
+        refresh: 'Segarkan',
+        create: 'Buat',
+        search: 'Cari',
+        delete: 'Hapus',
+    },
 }
