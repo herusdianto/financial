@@ -3,7 +3,7 @@
     <v-toolbar dense
                elevate-on-scroll
     >
-      <v-toolbar-title>Income</v-toolbar-title>
+      <v-toolbar-title>{{ $vuetify.lang.t('$vuetify.transactions.title') }}</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -64,7 +64,7 @@
              max-height="600"
     >
       <v-container class="content-container">
-        <p>This is income page</p>
+        <p>This is transactions page</p>
       </v-container>
     </v-sheet>
   </v-card>

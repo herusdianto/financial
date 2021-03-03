@@ -6,13 +6,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'income',
-    component: () => import(/* webpackChunkName: "income" */ '../views/Income.vue')
-  },
-  {
-    path: '/outcome',
-    name: 'outcome',
-    component: () => import(/* webpackChunkName: "outcome" */ '../views/Outcome.vue')
+    name: 'transactions',
+    component: () => import(/* webpackChunkName: "income" */ '../views/Transactions.vue')
   },
 ]
 

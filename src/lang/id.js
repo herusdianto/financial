@@ -10,12 +10,8 @@ export default {
         list: 'Daftar Menu',
     },
 
-    income: {
-        title: 'Pemasukan',
-    },
-
-    outcome: {
-        title: 'Pengeluaran',
+    transactions: {
+        title: 'Transaksi',
     },
 
     actions: {

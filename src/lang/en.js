@@ -10,12 +10,8 @@ export default {
         list: 'Menu List',
     },
 
-    income: {
-        title: 'Income',
-    },
-
-    outcome: {
-        title: 'Outcome',
+    transactions: {
+        title: 'Transactions',
     },
 
     actions: {
