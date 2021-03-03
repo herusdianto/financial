@@ -2,7 +2,6 @@
   <v-card class="overflow-hidden margin-20">
     <v-toolbar dense
                elevate-on-scroll
-               scroll-target="#scrolling-techniques-7"
     >
       <v-toolbar-title>Income</v-toolbar-title>
 
