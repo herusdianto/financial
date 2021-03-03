@@ -2,6 +2,9 @@
   .margin-20 {
     margin: 20px;
   }
+  .content-container {
+    height: 500px;
+  }
 </style>
 
 <template>
@@ -9,6 +12,8 @@
     <v-navigation-drawer
         v-model="drawer"
         app
+        color="primary"
+        dark
     >
       <v-list-item>
         <v-list-item-content>
@@ -44,7 +49,9 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar app>
+    <v-app-bar app
+               color="primary"
+               dark>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title>{{ $vuetify.lang.t('$vuetify.title') }}</v-toolbar-title>
