@@ -55,6 +55,12 @@
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title>{{ $vuetify.lang.t('$vuetify.title') }}</v-toolbar-title>
+
+      <v-spacer></v-spacer>
+
+      <v-btn icon @click="redirectToGithub()">
+        <v-icon>mdi-github</v-icon>
+      </v-btn>
     </v-app-bar>
 
     <v-main>
@@ -86,6 +92,10 @@ export default {
 
       if (routeName !== currentRouteName)
         router.push({name: routeName})
+    },
+    redirectToGithub() {
+        let githubUrl = 'https://github.com/herusdianto/financial'
+        window.open(githubUrl, '_blank')
     }
   },
 };
