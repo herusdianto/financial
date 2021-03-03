@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/transactions',
     name: 'transactions.index',
     component: () => import(/* webpackChunkName: "income" */ '../views/Transactions/Index.vue'),
     meta: {
